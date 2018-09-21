@@ -37,8 +37,9 @@ def mark_as_finished(task):
     if it does not already have the label appended.
     It should remain in the todo_list
     """
-    finished_task = '[Finished]'
-    task = "task{0}[Finished]".format(task)#Adds string '[Finished] at the end of finshed task.
+    task_index = todo_list.index(task)
+    todo_list[task_index] = task + " [finished]"
+ 
     return todo_list
        
        
