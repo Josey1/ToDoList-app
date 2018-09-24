@@ -1,3 +1,4 @@
+/*sign up*/
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font: size 15px;
@@ -5,7 +6,6 @@ body{
     padding:0;
     margin:0;
     background-color: #f2f2f2;
-    
 }
 .container{
     widows: 80%;
@@ -43,35 +43,32 @@ header li{
 nav{
     float:right;
 }
-/*show*/
-#show{
-    width:60%;
-    min-height: 600px;
-    background: url('../images/list3.jpg') no-repeat;
-    float: left;
-    
-    
-}
-h1{
-    text-align: center;
 
+section #sect {
+   padding-left: 10px;
+   
 }
-/*logging in*/
-#forms{
-    width: 60%;
-    min-height: 600px;
+#signup {
+
+    width: 40%;
+    /* height: 100%; */
     background-color: white;
-    float: right;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
+    font-size: 22px;
     color:green;
     padding: 0;
     margin-right: 30px;
     margin-bottom: 10px;
     padding-left: 40px;
+    float:left;
 
 }
-#forms input{
+
+#signup input{
     width: 80%;
     height: 30px;
     margin-bottom: 10px;
@@ -79,7 +76,7 @@ h1{
    
 
 }
-#forms input[type="text"], input[type="password"]{
+#signup input[type="text"], input[type="password"]{
     border:none;
     border-bottom:1px solid black;
     background: transparent;
@@ -88,7 +85,7 @@ h1{
     color:green;
     font-size:16px;
 }
-#forms input[type="submit"]{
+#signup input[type="submit"]{
     border:none;
     outline:none;
     height: 40px;
@@ -102,13 +99,13 @@ h1{
     background:brown;
     color:#000;
 }
-#forms a{
+#signup a{
     text-decoration: none;
     font-size: 15px;
     line-height: 20px;
     color:brown;
 }
-#forms a:hover{
+#signup a:hover{
     color:green;
 }
 h2{
@@ -117,29 +114,59 @@ h2{
     text-align: center;
     font-size: 22px;
 }
-/*footer*/
-footer{
+ #image img{
+   /* max-width: 60%; */
+   width: 100%;
+    /* height:100px;*/
+    float: right;
+    padding-right:10px;
+     
+    margin-top: 10px;
+     
+} 
+#copyright2{
     font-style: italic;
     color: black;
     float: right;
 }
 
 @media screen and (max-width: 500px) {
-    #show {    
+    #image img {    
     float: none;
     display: block; 
-    width: 100%;
-    background-size: 500px;  
-    size: 500px;
     }
-    #forms {
+    #signup {
     float: none;
     display: block;
-    width: 100%;
+    width: 100%; 
+
     }
-    #forms h2 {
+    section #sect {
+        padding-left: 0px;
+    
+    }   
+    #brandText h1 {
+        text-align: center;
+    } 
+    section #sect h2 {
         text-align: left;
-    }
+    } 
+
+
 
 
 }
+    
+    
+
+/*footer*/
+footer {
+    font-style: italic;
+    color: black;
+    float: right;
+}
+
+
+
+  
+  
