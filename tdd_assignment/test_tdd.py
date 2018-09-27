@@ -30,4 +30,6 @@ class TestValidation(TestCase):
         self.assertFalse(validate_password('@Cici'))
 
 if __name__ == "__main__":
-    pass
+    unittest()
+
+    
